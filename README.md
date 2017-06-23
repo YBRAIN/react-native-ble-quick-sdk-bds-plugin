@@ -1,5 +1,9 @@
-React Native BDS plugin for BLE Client
-----------------------------------------
+React Native Bluetooth Developer Studio plugin for BLE Client/Central
+
+This plugin is in development phase so please don't use it for production releases until stable version of this sdk is released.
+
+React Native BDS plugin for BLE Client/Central
+----------------------------------------------
 This is the Bluetooth Developer Studio plugin for React Native BLE Client App development using React Native BLE Quick SDK. This 
 plugin generates BLE services javascript source based on BLE profile of Bluetooth Developer Studio project.
 
