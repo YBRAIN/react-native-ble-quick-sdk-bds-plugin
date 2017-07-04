@@ -14,20 +14,20 @@ Installation and preparation steps.
 
 1. Assuming that Bluetooth Developer Studio is installed and you have created BLE profile for your device using Bluetooth Developer Studio.
 
-2. Get React Native BDS plugin from this repo https://github.com/eric2036/react-native-ble-quick-sdk-bds-plugin
+2. Get React Native BDS plugin from this repo https://github.com/YbrainInc/react-native-ble-quick-sdk-bds-plugin
 
 3. Copy the downloaded react-native-ble-quick-sdk-bds-plugin folder to Plugins folder of Bluetooth Developer Studio. (i.e {your-pc}\Bluetooth SIG\Bluetooth Developer Studio\Plugins)
 
-4. Open your Bluetooth Developer Studio project.
-
-5. Go to Tools -> Generate Code -> Select "Client" for "Generate Code for" option -> Check if "React Native BLE Quick SDK for Client" is available as Plugin option.
-
-6. Do npm install react-native-ble-quick-sdk from github as below in your React Native App's root folder. Provide the Bluetooth Developer Studio's root path
+4. Do npm install react-native-ble-quick-sdk from github as below in your React Native App's root folder. Provide the Bluetooth Developer Studio's root path
  using argument --bdsPath in npm install command.
 
- e.g. npm install -s https://github.com/eric2036/react-native-ble-quick-sdk --bdsPath="C:\\Program Files\\something" 
+ e.g. npm install -s https://github.com/YbrainInc/react-native-ble-quick-sdk --bdsPath="C:\\Program Files\\something" 
 
-7. Go back to Bluetooth Developer Studio-> Select Plugin "React Native BLE Quick SDK for Client"
+5. Open your Bluetooth Developer Studio project.
+
+6. Go to Tools -> Generate Code -> Select "Client" for "Generate Code for" option -> Check if "React Native BLE Quick SDK for Client" is available as Plugin option.
+
+7. Select Plugin "React Native BLE Quick SDK for Client" in Bluetooth Developer Studio.
 
 8. Set output path in "Save To " field to {app_project_root}\node_modules\react-native-ble-quick-sdk\.
 
