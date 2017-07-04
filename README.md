@@ -12,7 +12,7 @@ plugin generates BLE services javascript source based on BLE profile of Bluetoot
 Installation and preparation steps.
 -----------------------------------
 
-1. Assuming that Bluetooth Developer Studio is installed and you have created BLE profile for your device using Bluetooth Developer Studio.
+1. Assuming that Bluetooth Developer Studio is installed and you have created BLE profile for your device using Bluetooth Developer Studio. Also please remeber to have your react native app ready. If you don't have your react native app ready then please follow link https://facebook.github.io/react-native/docs/getting-started.html to create sample react native app and then try our plugin. Please don't forget step 4 and step 8 before trying to generate code.
 
 2. Get React Native BDS plugin from this repo https://github.com/YbrainInc/react-native-ble-quick-sdk-bds-plugin
 
