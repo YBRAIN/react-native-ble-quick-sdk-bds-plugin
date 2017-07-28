@@ -18,10 +18,13 @@ Installation and preparation steps.
 
 3. Copy the downloaded react-native-ble-quick-sdk-bds-plugin folder to Plugins folder of Bluetooth Developer Studio. (i.e {your-pc}\Bluetooth SIG\Bluetooth Developer Studio\Plugins)
 
-4. Do npm install react-native-ble-quick-sdk from github as below in your React Native App's root folder. Provide the Bluetooth Developer Studio's root path
- using argument --bdsPath in npm install command.
+4. Do npm install react-native-ble-quick-sdk from github as below in your React Native App's root folder. Provide the Bluetooth Developer Studio's root path using argument --bdsPath in npm install command.
 
- e.g. npm install -s https://github.com/YbrainInc/react-native-ble-quick-sdk --bdsPath="C:\\Program Files\\something" 
+For example:
+npm install -s https://github.com/YbrainInc/react-native-ble-quick-sdk --bdsPath="{Your Bluetooth Developer Studio Installation Folder i.e. C:\Program Files (x86)\Bluetooth SIG\Bluetooth Developer Studio}"
+ 
+Note: This step needs admin privilege or it will fail.  
+
 
 5. Open your Bluetooth Developer Studio project.
 
