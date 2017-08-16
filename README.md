@@ -1,6 +1,6 @@
 ## React Native BDS plugin for Bluetooth Low Energy Client Apps 
 
-This is the Bluetooth Developer Studio plugin for React Native Bluetooth Low Energy (BLE) Client App development using [React Native BLE Quick SDK] package (https://github.com/YbrainInc/react-native-ble-quick-sdk/). This plugin generates BLE services javascript source based on BLE profile designed using Bluetooth Developer Studio IDE.
+This is the Bluetooth Developer Studio plugin for React Native Bluetooth Low Energy (BLE) Client App development using [React Native BLE Quick SDK package](https://github.com/YbrainInc/react-native-ble-quick-sdk/). This plugin generates BLE services javascript source based on BLE profile designed using Bluetooth Developer Studio IDE.
 
 ## Plugin Version
 *  v0.1.0
@@ -20,9 +20,9 @@ This plugin is in development phase so please don't use it for production releas
 ## Install & Prepare on Windows OS
 ----------------------------------
 
-1. Assuming that Bluetooth Developer Studio is installed and you have created BLE profile for your device using Bluetooth Developer Studio. Also please remeber to have your react native app ready. If you don't have your react native app ready then please follow link [Getting started React Native Apps] (https://facebook.github.io/react-native/docs/getting-started.html) to create sample react native app and then try our plugin. Please don't forget step 4 and step 8 before trying to generate code.
+1. Assuming that Bluetooth Developer Studio is installed and you have created BLE profile for your device using Bluetooth Developer Studio. Also please remeber to have your react native app ready. If you don't have your react native app ready then please follow link [Getting started React Native Apps](https://facebook.github.io/react-native/docs/getting-started.html) to create sample react native app and then try our plugin. Please don't forget step 4 and step 8 before trying to generate code.
 
-2. Download React Native BDS plugin for Bluetooth Low Energy Client Apps from [here] (https://github.com/YbrainInc/react-native-ble-quick-sdk-bds-plugin)
+2. Download React Native BDS plugin for Bluetooth Low Energy Client Apps from [here](https://github.com/YbrainInc/react-native-ble-quick-sdk-bds-plugin)
 
 3. Copy the downloaded react-native-ble-quick-sdk-bds-plugin folder to Plugins folder of Bluetooth Developer Studio. (i.e {Your Bluetooth Developer Studio Installation Folder}\Plugins)
 
@@ -32,7 +32,8 @@ This plugin is in development phase so please don't use it for production releas
  npm install --save react-native-ble-quick-sdk --bdsPath="{Your Bluetooth Developer Studio Installation Folder i.e. C:\Program Files (x86)\Bluetooth SIG\Bluetooth Developer Studio}" 
 ```
  
-Note: This step needs admin privilege or it will fail.  
+* Note: 
+This step needs admin privilege or it will fail.  
 
 
 5. Open your Bluetooth Developer Studio project.
