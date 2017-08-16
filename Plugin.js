@@ -1,8 +1,8 @@
 ﻿function GetInfo(infoObject) {
-    infoObject.Name = "React Native BLE Quick SDK for Client";
+    infoObject.Name = "React Native Client Plugin"; 
     infoObject.Description = "To auto generate react native BLE API services source from the BLE profile";
     infoObject.Author = "Eric";
-    infoObject.Version = "0.0.3";
+    infoObject.Version = "0.1.0";
     infoObject.IsClient = true;
     return infoObject;
 }
@@ -11,7 +11,7 @@
 
 function RunPlugin(profileData) {
 	
-	log("Start React Native BLE Client");
+	log("Start React Native Client Plugin");
 
 	generateBLEServicesFactorySrc(profileData);
 	generateDeviceEventTypesSrc(profileData);
